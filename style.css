@@ -1,18 +1,49 @@
 h1, h2 {
-font-family: Georgia;
+font-family: Courier New, monospace;
+  font-weight: lighter;
 }
 
 .main {
-  margin: auto;
+  border: 5px solid black;
+    margin: auto;
   width: 50%;
   text-align: center;
 }
 
-.contact-info {
+.contact-box {
 font-family: Courier New, monospace;
   border: 5px solid black;
   margin: auto;
   width: 50%;
   text-align: center;
+  
+  
+}
+
+.contact-info li {
+  display: inline;
+  list-style-type: none;
+  border-right: 1px solid red;
+  padding-right: 10px;
+  margin-top: 5px;
+}
+
+.profile {
+    border: 5px solid black;
+    margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.experience {
+      border: 5px solid black;
+    margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.job-title {
+ font-family: Courier New, monospace;
+  text-transform: uppercase;
   
 }
