@@ -5,5 +5,7 @@ font-family: Georgia;
 .contact-info {
 font-family: Courier New, monospace;
   border: 5px solid black;
+  margin: auto;
+  width: 50%;
   
 }
