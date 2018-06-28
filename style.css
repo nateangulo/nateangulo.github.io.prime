@@ -37,11 +37,6 @@ font-family: Courier New, monospace;
     margin: auto;
   position: relative;
   text-align: center;
-  
-  animation-delay: 1.2s;
-  animation-direction: normal;
-  animation-duration: 2400ms;
-  animation-iteration-count: 1;
 }
 
 
