@@ -1,5 +1,5 @@
 body {
-  background-color: #ffa221;
+  background-color: white;
 }
 
 h1, h2 {
@@ -50,7 +50,7 @@ h1, h2 {
   display: flex;
   flex-direction: column;
   padding: 0;
-  margin: 40px;
+  margin: 20px 20px 80px 20px;
   list-style: none;
   height: 1300px;
   
@@ -68,6 +68,7 @@ h1, h2 {
   flex-flow: row wrap;
   -webkit-align-items: stretch;
   align-items: stretch;
+  border-radius: 10px;
 }
 
 .main-header {
@@ -83,6 +84,7 @@ h1, h2 {
   animation-direction: normal;
   animation-duration: 2400ms;
   animation-iteration-count: 1;
+  width: 40%;
 }
 
 .main-header p {
@@ -125,7 +127,7 @@ h1, h2 {
   margin: 20px 30px;
   position: relative;
   text-align: center;
-  width: 400px;
+  width: 80%;
   border-radius: 2px;
 }
 
@@ -136,7 +138,7 @@ h1, h2 {
 .experience {
   background-color: #26c972;
   margin: auto;
-  width: 55%;
+  width: 85%;
   text-align: center;
   border-radius: 2px;
 }
@@ -145,7 +147,7 @@ h1, h2 {
 .education {
   background-color: #26c972;
   margin: auto;
-  width: 55%;
+  width: 85%;
   text-align: center;
   border-radius: 2px;
   
@@ -154,7 +156,7 @@ h1, h2 {
 .qualities {
   background-color: #26c972;
   margin: auto;
-  width: 50%;
+  width: 85%;
   text-align: center;
   border-radius: 2px;
 }
@@ -179,7 +181,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   padding: 0;
-  margin: 40px;
+  margin: 40px 20px 20px 20px;
   list-style: none;
   height: 2500px;
   
@@ -197,4 +199,5 @@ a:hover {
   flex-flow: row wrap;
   -webkit-align-items: stretch;
   align-items: stretch;
+  border-radius: 10px;
 }
