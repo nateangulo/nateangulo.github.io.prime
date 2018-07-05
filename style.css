@@ -1,18 +1,58 @@
+body {
+  background-color: #ffa221;
+}
+
 h1, h2 {
-font-family: Courier New, monospace;
-  font-weight: lighter;
+  font-family:'Ubuntu', sans-serif;
+  font-weight: regular;
+  color: white;
   padding: 10px;
+  font-size: 60px;
+  letter-spacing: 3px;
+  text-shadow: 3px 4px 2px #ffa221;
+}
+.list-title {
+  font-family: Courier New, monospace;
+}
+.list-title li {
+  color: white;
+  font-size: 30px;
+  display: inline;
+  list-style-type: none;
+  border-right: 1px solid red;
+  padding-right: 15px;
+  margin-right: 20px;
+}
+
+.title {
+ font-family:'Ubuntu', sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  
+}
+
+.words {
+  color: white;
+  font-family:'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  background-color: #ffa221;
+  margin: 5%;
+  padding: 2%;
+  border-radius: 5px;
+  box-shadow: -2px 3px 1px 2px #ce4906;
+  line-height: 155%;
 }
 
 .main-container {
-  background-color: #1D8A99;
-  border: 5px solid green;
+  background-color: #34e27d;
   display: flex;
   flex-direction: column;
   padding: 0;
-  margin: 100px;
+  margin: 40px;
   list-style: none;
-  height: 800px;
+  height: 1300px;
   
   -ms-box-orient: horizontal;
   display: -webkit-box;
@@ -31,42 +71,62 @@ font-family: Courier New, monospace;
 }
 
 .main-header {
-  border: 5px solid #0BC9CD;
-  background-color: #14FFF7;
-  background-image: url('nateangulo.github.io/IMG_1431.JPG');
-  border-radius: 5px;
-    margin: auto;
+  background-color: #ffd749;
+  text-shadow: 3px 4px 2px #ffa221;
+  border-radius: 8px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  padding: 0px 10px 0 10px;
+  
+  animation-delay: 1.2s;
+  animation-direction: normal;
+  animation-duration: 2400ms;
+  animation-iteration-count: 1;
+}
+
+.main-header p {
+  color: #ffa221;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 32px;
+  text-shadow: none;
+  margin: auto;
+  padding-bottom: 15px;
   position: relative;
   text-align: center;
 }
 
 
 .contact-box {
-font-family: Courier New, monospace;
-  border: 5px solid black;
+  background-color: #26c972;
+  font-family: Courier New, monospace;
   margin: auto;
   position: relative;
   text-align: center;
-
+  border-radius: 2px;
 }
 
 .contact-info li {
+  font-size: 20px;
   display: inline;
   list-style-type: none;
-  border-right: 1px solid red;
-  padding-right: 10px;
-  margin-top: 5px;
+  border-right: 1px solid #ffa221;
+  padding-right: 15px;
+  margin-right: 20px;
 }
+
 #last {
-border: none;
+  border: none;
 }
 
 .profile {
-    border: 5px solid black;
-    margin: 20px 30px;
-    position: relative;
+  background-color: #26c972;
+  margin: 20px 30px;
+  position: relative;
   text-align: center;
   width: 400px;
+  border-radius: 2px;
 }
 
 .profile p {
@@ -74,31 +134,29 @@ border: none;
 }
 
 .experience {
-      border: 5px solid black;
-    margin: auto;
-  width: 50%;
+  background-color: #26c972;
+  margin: auto;
+  width: 55%;
   text-align: center;
+  border-radius: 2px;
 }
 
-.title {
- font-family: Courier New, monospace;
-  text-transform: uppercase;
-  
-}
 
 .education {
-      border: 5px solid black;
-    margin: auto;
-  width: 50%;
+  background-color: #26c972;
+  margin: auto;
+  width: 55%;
   text-align: center;
+  border-radius: 2px;
   
 }
 
 .qualities {
-     border: 5px solid black;
-    margin: auto;
+  background-color: #26c972;
+  margin: auto;
   width: 50%;
   text-align: center;
+  border-radius: 2px;
 }
 
 a: link {
@@ -114,4 +172,29 @@ a: visited {
 a:hover {
     color: hotpink;
   text-decoration: none;
+}
+
+.content {
+  background-color: #34e27d;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 40px;
+  list-style: none;
+  height: 2500px;
+  
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-align-items: stretch;
+  align-items: stretch;
 }
